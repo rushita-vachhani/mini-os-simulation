@@ -2,3 +2,31 @@
 2026-03-30T11:16:50.287053 [INFO] Moved folder/test2.txt to test2.txt
 2026-03-30T11:17:28.666008 [INFO] Renamed test2.txt to file2.txt
 2026-03-30T11:20:20.614083 [INFO] Created file: test3.txt
+2026-03-30T16:35:43.717266 [INFO] Listed files
+2026-03-30T16:36:58.897227 [INFO] Created file: hello.txt
+2026-03-30T16:42:21.774414 [INFO] Listed files
+2026-03-30T16:44:27.412743 [INFO] Listed files
+2026-03-30T16:44:45.589930 [INFO] Created file: hello
+2026-03-30T16:44:47.302475 [INFO] Listed files
+2026-03-30T16:49:41.521994 [INFO] Deleted file: hello
+2026-03-30T16:49:43.089923 [INFO] Listed files
+2026-03-30T16:49:53.906556 [INFO] Listed files
+2026-03-30T16:50:01.538689 [INFO] Deleted file: hello.txt
+2026-03-30T16:50:02.605536 [INFO] Listed files
+2026-03-30T16:51:12.992801 [INFO] Created file: Hello_World.txt
+2026-03-30T16:51:56.316400 [INFO] Moved Hello_World.txt to subfolder/Hello_World.txt
+2026-03-30T16:52:27.958196 [INFO] Listed files
+2026-03-30T17:08:21.369247 [INFO] Created directory: Test
+2026-03-30T17:08:23.234435 [INFO] Listed files
+2026-03-30T17:08:52.498529 [INFO] Searched for: Hello_World
+2026-03-30T17:11:51.666206 [INFO] Created file: Test.txt
+2026-03-30T17:11:56.982492 [WARN] File already exists: Test.txt
+2026-03-30T17:12:03.464961 [INFO] Created file: Test.py
+2026-03-30T17:12:05.990102 [INFO] Listed files
+2026-03-30T17:18:29.631295 [INFO] Listed files
+2026-03-30T17:21:34.620856 [INFO] Listed files
+2026-03-30T17:21:50.829207 [WARN] Unauthorized delete attempt on protected path: cli
+2026-03-30T17:21:56.401109 [INFO] Listed files
+2026-03-30T17:28:46.662501 [INFO] Created file: OS.txt
+2026-03-30T17:28:57.696710 [INFO] Moved to trash: OS.txt
+2026-03-30T17:29:23.033919 [INFO] Restored from trash: OS.txt
