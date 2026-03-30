@@ -100,4 +100,26 @@ public class FileOperations {
             return "Delete failed.";
         }
     }
+
+
+    public static String searchFile(String keyword) {
+        File dir = new File(".");
+        File[] files = dir.listFiles();
+
+        if (files == null) return "No files found.";
+
+        StringBuilder result = new StringBuilder("Search Results:\n");
+
+        for (File file : files) {
+            if (file.getName().contains(keyword)) {
+                result.append(file.getName()).append("\n");
+            }
+        }
+
+        if (result.toString().equals("Search Results:\n")) {
+            return "No matching files found.";
+        }
+
+        return result.toString();
+    }
 }
